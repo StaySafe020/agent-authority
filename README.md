@@ -1,4 +1,4 @@
-h# Agent Authority
+# Agent Authority
 
 > Exploring verifiable chains of authority for autonomous AI agents.
 
@@ -35,3 +35,19 @@ Human / Organization
         │ delegates limited authority
         ▼
       Agent C
+
+      ## Current Research Direction
+
+Agent Authority is currently exploring how autonomous AI agents can carry verifiable chains of delegated authority.
+
+The current research direction investigates combining:
+
+- Decentralized Identifiers (DIDs) for cryptographic identity
+- Macaroon-style capabilities for delegated and restricted authority
+- Status Lists or similar mechanisms for revocation
+
+This architecture is experimental and subject to change as research continues.
+
+## Core Question
+
+> When an autonomous AI agent performs an action, can we cryptographically verify who authorized it and how that authority reached the agent?
